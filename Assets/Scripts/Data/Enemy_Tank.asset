@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f2e7afc44d4c6b40924a6582e6a209e, type: 3}
   m_Name: Enemy_Tank
   m_EditorClassIdentifier: Assembly-CSharp::EnemyDefinition
-  EnemyHp: 0
-  EnemyDamage: 0
-  EnemySpeed: 0
-  EnemyAttackCooldown: 0
+  EnemyHp: 50
+  EnemyDamage: 20
+  EnemySpeed: 1
+  EnemyAttackCooldown: 1
   prefab: {fileID: 0}

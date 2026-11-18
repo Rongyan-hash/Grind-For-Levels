@@ -16,4 +16,4 @@ MonoBehaviour:
   EnemyDamage: 10
   EnemySpeed: 3
   EnemyAttackCooldown: 0.5
-  prefab: {fileID: 0}
+  prefab: {fileID: 3601957890090879232, guid: 563f0f17275e3754880499a440273baa, type: 3}
