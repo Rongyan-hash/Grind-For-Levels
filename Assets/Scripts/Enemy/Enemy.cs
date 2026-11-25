@@ -79,6 +79,7 @@ public class Enemy : MonoBehaviour
     }
     private void Die()
     {
+        //Debug.Log($"DIE{name} pos={transform.position}");
         EnemyPool.Instance.Release(this);//回收敌人
     }
 }

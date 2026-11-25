@@ -26,11 +26,13 @@ public class EnemyPool : MonoBehaviour
         Enemy enemy = idle.Count > 0 ? idle.Pop() : Instantiate(enemyPrefab, transform);
         enemy.Initialize(definition, target);//初始化敌人
         enemy.gameObject.SetActive(true);//激活敌人
+        Debug.Log($"GET{enemy.name} pos={enemy.transform.position}");
         return enemy;//返回敌人
     }
 
     public void Release(Enemy enemy)
     {
+        //Debug.Log($"RELEASE{enemy.name} pos={enemy.transform.position} oldHp={enemy.name}");
         enemy.gameObject.SetActive(false);//禁用敌人
         idle.Push(enemy);//入栈
     }
